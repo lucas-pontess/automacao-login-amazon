@@ -1,0 +1,22 @@
+{
+  "name": "automacao_login_amazon",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes web da tela de login da Amazon, desenvolvido com **Playwright** e o padrão **Page Object Model (POM)**.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-pontess/automacao-login-amazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-pontess/automacao-login-amazon/issues"
+  },
+  "homepage": "https://github.com/lucas-pontess/automacao-login-amazon#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0"
+  }
+}
