@@ -4,7 +4,7 @@ export const users = {
     password: process.env.AMAZON_PASSWORD ?? '',
   },
   invalidEmail: {
-    email: 'email-invalido@teste.com',
+    email: 'emailinvalidosemarroba',
     password: '123456',
   },
   emptyEmail: {

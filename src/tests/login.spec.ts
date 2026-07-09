@@ -31,4 +31,23 @@ test.describe('Amazon Login Page', () => {
     await expect(page.getByText('Insira seu número de celular ou e-mail')).toBeVisible();
   });
 
+    test('should show error for invalid email format', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+
+    await loginPage.navigate();
+    await loginPage.fillEmail(users.invalidEmail.email);
+    await loginPage.clickContinue();
+
+    await expect(page.getByText('Endereço de e-mail inválido')).toBeVisible();
+  });
+
+  test('should have correct page title', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+
+    await loginPage.navigate();
+
+    const title = await loginPage.getTitle();
+    expect(title).toContain('Amazon');
+  });
+
 });
