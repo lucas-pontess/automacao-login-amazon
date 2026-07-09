@@ -1,5 +1,9 @@
 # Automação de Testes — Login Amazon
 
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
 Projeto de automação de testes web da tela de login da Amazon, desenvolvido com **Playwright** e o padrão **Page Object Model (POM)**.
 
 ## Tecnologias
