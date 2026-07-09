@@ -28,7 +28,7 @@ test.describe('Amazon Login Page', () => {
     await loginPage.navigate();
     await loginPage.clickContinue();
 
-    await expect(page.locator('.a-alert-content')).toBeVisible();
+    await expect(page.getByText('Insira seu número de celular ou e-mail')).toBeVisible();
   });
 
 });
